@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Registration Page </title>
+<style type="text/css">
+#firstname, #lastname, #country, #state, #email, #password, #confirmation, #gender, #submit{
+	margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+	<form id="regform">
+		<h1> REGISTRATION </h1>
+	<label for="firstname"> First Name </label>
+	<div><input type="text" placeholder="First Name" id="firstname" required></div>
+	 <div><label for="lastname"> Last Name </label>
+	<div><input type="text" placeholder="Last Name" id="lastname" required></div>
+</div>
+	<div> <select name="gender" id="gender">
+		<option> Gender </option>
+		<option> Male </option>
+		<option> Female </option>
+	</select>
+	</div>
+	<label for="country"> Country </label>
+	<div><input type="text" placeholder="country" id="country" required></div>
+	<label for="state"> State/Province </label>
+	<div><input type="text" placeholder="state" id="state" required></div>
+	<label for="email"> E-mail </label>
+	<div><input type="email" placeholder="E-mail" id="email" requires></div>
+	<label for="passsword"> Password </label>
+	<div><input type="password" placeholder="password" id="password" required></div>
+	<label for="confirmation"> Confirm Password </label>
+	<div><input type="password" placeholder="confirm password" id="confirmation" required></div>
+	<div>
+	<button for="Submit" id="submit"> Submit </button>
+</div>
+</form>
+</body>
+</html>
