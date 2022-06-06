@@ -1,6 +1,8 @@
 body{
-	background: #dbe9ee;
+	background: url(file:///C:/Users/hp/Pictures/bulbasaur.jpg);
 	text-align: left;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .navbar{
 		padding-bottom:10px;
@@ -11,27 +13,36 @@ body{
 		position: relative;
 	}
 
-	#pix{
+#pix{
 		border-radius: 50%;
 		position: relative;
 		float: left;
 		width: 120px;
 		padding-right: 10px;
 	}
+	h2{
+		margin-left: 40px;
+		color: white;
+	}
 
-	p{
-		font-size:18px;
-		text-align: justify;
-		margin-left: 1.66px;
+p{
+	margin-top: 50px;
+	font-size:18px;
+	text-align: justify;
+	margin-left: 1.66px;
+	color: white;
+	font-weight: 500%;
 	}
 .hobbies, .prio {
 	font-size:15px;
-	margin-left: 13px; 
+	margin-left: 13px;
+	color: white; 
 }
 
 h3{
 	text-align: left;
 	padding-top: 20px;
+	color: white;
 }
 #contact{
 	font-size: 40px;
@@ -39,7 +50,10 @@ h3{
 	padding-bottom: 20px;
 	padding-left: 5px;
 	padding-right: 5px;
+	background-color: #eee;
+	margin: 0 200px 0 200px;
 	}
 #lists{
 	padding-right: 10px;
+	color: white;
 }
