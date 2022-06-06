@@ -2,21 +2,46 @@
 <html>
 <head>
 	<title> Contact </title>
-	<link rel="stylesheet" type="text/css" href="contact.css">
+	<style type="text/css">
+body{
+	background-color: #767676;
+	margin: 50px 50px;
+}
+
+#name{
+	font-size:20px;
+}
+#mail{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+#textarea{
+	font-size: 20px;
+	color: grey;
+}
+.name, .mail{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.submit{
+	font-size: 30%;
+}
+	</style>
+</head>
 <form>
 	<label class="name">
 		NAME </label>
-		<div><input id="name" type="text"  required></div>
+		<div><input id="name" type="text" required></div>
 
         <div><label class="mail" for="Email"> Email </label>
          <div> <input id="mail" required> </div>
       </div>
       <div>
-         <textarea id="textarea"> Messages </textarea>
+         <textarea id="textarea"> massage </textarea>
      </div>
 	
 	<footer> 
-		<button id="submit"> Submit </button>
+		<button id="submit"><a href="file:///C:/Users/hp/Desktop/registration.html"> Submit</a> </button>
 	</footer>
 </form>
 </html>
